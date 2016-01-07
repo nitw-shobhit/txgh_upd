@@ -1,0 +1,15 @@
+txgh:
+    github:
+        repos:
+            nitw-shobhit/Transifex_Test:
+                api_username: nitw-shobhit
+                api_token: Put Git Token
+                push_source_to: transifex-demo
+                branch: master
+    transifex:
+        projects:
+            transifex-demo:
+                tx_config: ./config/tx.config
+                api_username: s.tyagi
+                api_password: put transifex password
+                push_translations_to: nitw-shobhit/Transifex_Test
